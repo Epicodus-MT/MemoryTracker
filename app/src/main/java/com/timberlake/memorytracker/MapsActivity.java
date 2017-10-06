@@ -18,8 +18,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private GoogleMap mMap;
     LatLng myCoordinates;
     LocationManager locationManager;
-    boolean isGPSEnabled =false;
-    boolean isNetworkEnabled =false;
+    boolean isGPSEnabled = false;
+    boolean isNetworkEnabled = false;
     boolean canGetLocation = false;
 
     @Override
