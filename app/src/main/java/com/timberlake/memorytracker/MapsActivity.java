@@ -14,7 +14,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, LocationListener {
-
+    final static int PERMISSION_ALL = 1;
+    final static String[] PERMISSIONS = [android.Manifest.permission.ACCESS_COARSE_LOCATION];
     private GoogleMap mMap;
     LatLng myCoordinates;
     LocationManager locationManager;
@@ -28,25 +29,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
     }
 
-    @Override
-    public void onLocationChanged(Location location)
-
-    }
-
-    @Override
-    public void onStatusChange(String s, int i, Bundle bundle) {
-
-    }
-
-    @Override
-    public void onProviderEnabled(String s) {
-
-    }
-
-    @Override
-    public void onProviderDisabled(String s) {
-
-    }
 
     private void requestLocation() {
         Criteria criteria = new Criteria();
