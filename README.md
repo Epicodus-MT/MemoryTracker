@@ -11,7 +11,7 @@ _This is an Android Application for the loved ones of a patient with Memory Loss
 ## Specifications
 |Behavior|Input|Output|
 |---|---|---|
-|User allows app to access location|Clicks 'Accept'|App opens to map location|
+|Message reads "Allow MemoryTracker to access this device's location?"|User clicks 'ALLOW'|App opens to user's location|
 
 ## Technologies Used
 
