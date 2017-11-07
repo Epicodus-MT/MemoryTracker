@@ -11,7 +11,7 @@ _This is an Android Application for the loved ones of a patient with Memory Loss
 ## Specifications
 |Behavior|Input|Output|
 |---|---|---|
-
+|User allows app to access location|Clicks 'Accept'|App opens to map location|
 
 ## Technologies Used
 
@@ -33,18 +33,13 @@ MemoryTracker/
 |    └── src/
 |    |     └── androidTest/
 |    |     └── main/
-|    |     |     └── assets/
-|    |     |     |    └── fonts/
 |    |     |     └── java/
-|    |     |     |    └── AdviceActivity
-|    |     |     |    └── Constants
-|    |     |     |    └── MainActivity
-|    |     |     |    └── MyPatientArrayActivity
-|    |     |     |    └── PatientActivity
+|    |     |     |    └── MapsActivity
 |    |     |     └── res/
-|    |     |     |    └── drawable/
 |    |     |     |    └── layout/
+|    |     |     |    |      └── activity_maps.xml 
 |    |     |     |    └── values/
+|    |     |     |    |      └── google_maps_api.xml
 |    |     |     └── AndroidManifest.xml
 |    |     └── test/
 |    └── .gitignore
@@ -61,7 +56,7 @@ MemoryTracker/
 ## Setup/Installation Requirements
 To run this program:
   * _LOCAL: Go to Terminal_
-  * `git clone https://github.com/Epicodus-MT/MemoryCare.git`
+  * `git clone https://github.com/Epicodus-MT/MemoryTracker.git`
   * Install and open [Android Studio](https://developer.android.com/studio/index.html)
   * Select '_Open an existing Android Studio project_'
   * Navigate to cloned directory and click '_OK_'
